@@ -1,0 +1,38 @@
+/*@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.custom_checklist table {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+    border: 0 !important;
+}
+.custom_checklist table thead th {
+    font-size: 13px !important;
+    color: #fff !important;
+    line-height: 1.4 !important;
+    text-transform: uppercase;
+    background-color: #36304a;
+    padding: 10px 16px !important;
+}
+.custom_checklist table tbody td {
+    color: #808080 !important;
+    line-height: 1.4 !important;
+}
+.custom_checklist table input {
+    border: 1px solid #d8d8d8 !important;
+    border-radius: 0 !important;
+}
+.btn-sm, .btn-group-sm > .btn {
+    padding: .35rem .65rem;
+    font-size: .825rem !important;
+    line-height: 1.5;
+    border-radius: .2rem;
+}
+.btn {
+    text-decoration: none;
+}
+.custom-control-label::before {
+    left: -25px !important;
+}
